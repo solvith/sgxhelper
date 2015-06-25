@@ -18,12 +18,16 @@ install_github("solvith/sgxhelper")
 <ul>
 <li>getSGXStocks() - Get list of stocks and ticker from SGX market</li>
 <li>
-getYahooPrice  - get historical adjusted price for a stock
+getYahooPrice  - get historical adjusted price for a stock<br/>
 e<-new.env()<br/>
 getYahooPrice(e,Symbols = "Z74.SI",from = "2015-01-01")<br/>
 e$Z74.SI
 </li>
 <li>
 getGooglePrice(symbol = "Z74",period = "1d",freq = 60) - Get Intraday price of singtel , 60s interval
+</li>
+<li>
+Grab financial data from WSJ : <br/>
+getGooglePrice(symbol = "Z74",period = "1d")
 </li>
 </ul>

@@ -8,9 +8,9 @@
 #'
 
 
-getWSJFinancials<-function(ticker,interval="quarter"){
+getWSJFinancials<-function(ticker,interval="quarter",exchng="SG"){
   
-  download<-readHTMLTable(paste("http://quotes.wsj.com/SG/",ticker,"/financials/",interval,"/cash-flow",sep = ""))
+  download<-readHTMLTable(paste("http://quotes.wsj.com/",exchng,"/",ticker,"/financials/",interval,"/cash-flow",sep = ""))
   
   
   rtable<-data.table()
