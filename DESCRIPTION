@@ -1,0 +1,8 @@
+Package: sgxhelper
+Title: Prototype data tool for SGX
+Version: 0.0.0.9000
+Authors@R: person("James", "Song", email = "James@solvith.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.2)
+License: Private
+LazyData: true
