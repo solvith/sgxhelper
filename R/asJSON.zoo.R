@@ -1,7 +1,7 @@
 #' Helper Function
 #' @import jsonlite
 #'@return something
-#'@export
+#'@export asJSON.zoo
 
 
 asJSON.zoo<-function(x){

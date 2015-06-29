@@ -28,6 +28,8 @@ getGooglePrice(symbol = "Z74",period = "1d",freq = 60) - Get Intraday price of s
 </li>
 <li>
 Grab financial data from WSJ : <br/>
-getGooglePrice(symbol = "Z74",period = "1d")
+getWSJFinancials(ticker = "Z74",interval = "quarter")
+<br/>
+getWSJFinancials(ticker = "Z74",interval = "annual")
 </li>
 </ul>
