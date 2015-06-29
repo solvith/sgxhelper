@@ -4,7 +4,7 @@
 \alias{getWSJFinancials}
 \title{Get prices from yahoo}
 \usage{
-getWSJFinancials(ticker, interval = "quarter")
+getWSJFinancials(ticker, interval = "quarter", exchng = "SG")
 }
 \value{
 a data table of all the financials data
